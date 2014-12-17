@@ -5,7 +5,7 @@ MANTAINER Andrea Reginato <andrea.reginato@gmail.com>
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
 
 # Define start/restart command.
-CMD ["bash", "/etc/haproxy/haproxy -f /etc/haproxy/haproxy.cfg -D -p /var/run/haproxy.pid"]
+CMD ["bash", "haproxy -f /etc/haproxy/haproxy.cfg -D -p /var/run/haproxy.pid"]
 
 # Expose ports.
 EXPOSE 80
