@@ -5,7 +5,7 @@ MANTAINER Andrea Reginato <andrea.reginato@gmail.com>
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
 
 # start proxy restart
-CMD ["bash", "/haproxy-restart"]
+CMD ["bash", "service haproxy restart"]
 
 # Expose ports.
 EXPOSE 80
