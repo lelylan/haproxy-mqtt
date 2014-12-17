@@ -4,9 +4,6 @@ MANTAINER Andrea Reginato <andrea.reginato@gmail.com>
 # Add personalized configuration
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
 
-# Add restart commands
-ADD start.bash /haproxy-restart
-
 # Define start/restart command.
 CMD ["bash", "/etc/haproxy/haproxy -f /etc/haproxy/haproxy.cfg -D -p /var/run/haproxy.pid"]
 
