@@ -1,5 +1,7 @@
 FROM dockerfile/haproxy
-MANTAINER Andrea Reginato <andrea.reginato@gmail.com>
+MAINTAINER Andrea Reginato <andrea.reginato@gmail.com>
+
+VOLUME /certs:/certs
 
 # Add personalized configuration
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
