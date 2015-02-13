@@ -6,9 +6,6 @@ VOLUME /certs:/certs
 # Add personalized configuration
 ADD haproxy.cfg /etc/haproxy/haproxy.cfg
 
-# Add restart commands
-ADD restart.bash /haproxy-restart
-
 # Define working directory.
 WORKDIR /etc/haproxy
 
