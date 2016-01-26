@@ -8,7 +8,7 @@ Fast and reliable solution (based on HAProxy) offering high availability, load b
 
 ## Resources
 
-* [Lelylan API](http://dev.lelylan.com)
+* [Lelylan Dev Center](http://dev.lelylan.com)
 
 
 ## Contributing
