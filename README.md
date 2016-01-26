@@ -1,6 +1,6 @@
-# MQTT HAProxy container
+# MQTT HAProxy Container
 
-Fast and reliable solution (based on HAProxy) offering high availability, load balancing and proxying for MQTT.
+Fast and reliable solution (based on HAProxy) offering high availability, load balancing and proxying for MQTT. Defined as Docker Container.
 
 
 ## Installation
